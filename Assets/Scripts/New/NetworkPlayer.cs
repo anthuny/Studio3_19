@@ -51,7 +51,7 @@ public class NetworkPlayer : NetworkBehaviour
     {
         if (isLocalPlayer)
         {
-            playerCam.transform.rotation = Quaternion.Euler(new Vector3(90, 0, 0));
+            //playerCam.transform.rotation = Quaternion.Euler(new Vector3(90, 0, 0));
         }
 
         labelHolder.rotation = Quaternion.identity;
